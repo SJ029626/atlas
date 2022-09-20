@@ -67,7 +67,7 @@ OUTPUT_PREFIX = {
     "PAGE_TOKEN_VM_OBJECT": "sanyambuggy",
     "SONAR_POLICIES_LIST": "RubrikPolaris.SonarPolicy",
     "SONAR_ANALYZER_GROUP": "RubrikPolaris.SonarAnalyzerGroup",
-    "SONAR_ON_DEMAND_SCAN": "RubrikPolaris.SonarOndemandScan",
+    "SONAR_ON_DEMND_SCAN": "RubrikPolaris.SonarOndemandScan",
     "RADAR_ANOMALY_CSV_ANALYSIS": "RubrikPolaris.RadarAnomalyCSV",
     "SONAR_CSV_DOWNLOAD": "RubrikPolaris.SonarCSVDownload",
     "GPS_SNAPSHOT_FILES": "RubrikPolaris.GPSSnapshotFile",

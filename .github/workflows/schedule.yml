@@ -16,5 +16,7 @@ jobs:
         continue-on-error: true
         with:
           command: monitor
+          args: --severity-threshold=high
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          

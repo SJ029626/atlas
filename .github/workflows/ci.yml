@@ -15,10 +15,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 16
-      - name: Cache npm dependencies
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
       - name: Install dependencies
         run: npm install
       - name: Build

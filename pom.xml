@@ -780,7 +780,7 @@
         <sqoop.version>1.4.6.2.3.99.0-195</sqoop.version>
         <storm.version>2.3.0</storm.version>
         <surefire.forkCount>2C</surefire.forkCount>
-        <surefire.version>3.0.0-M5</surefire.version>
+        <surefire.version>3.0.0-M7</surefire.version>
         <testng.version>7.0.0</testng.version>
         <tinkerpop.version>3.5.2</tinkerpop.version>
         <woodstox-core.version>5.0.3</woodstox-core.version>

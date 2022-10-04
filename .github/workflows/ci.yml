@@ -1,13 +1,11 @@
-name: 'Check for CI'
+name: "Check for CI"
 
 on:
   push:
     branches:
       - master
-
-on:
   schedule:
-    - cron: '* * * * *' # every minute
+    - cron: "* * * * *" # every minute
 
 jobs:
   test:

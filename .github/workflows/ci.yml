@@ -1,6 +1,11 @@
 name: 'Check for Vulnerabilities'
 
 on:
+  push:
+    branches:
+      - master
+
+on:
   schedule:
     - cron: '* * * * *' # every minute
 

@@ -31,9 +31,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    allow:
-      #  Allow direct updates for all packages
-      - dependency-type: "all"
     labels:
       - "python"
       - "dependencies"

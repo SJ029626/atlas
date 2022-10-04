@@ -9,7 +9,7 @@ updates:
       interval: "daily"
     allow:
       # Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "npm"
       - "dependencies"
@@ -21,7 +21,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "composer"
       - "dependencies"
@@ -33,7 +33,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "python"
       - "dependencies"
@@ -46,7 +46,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "github_actions"
       - "dependencies"
@@ -58,7 +58,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "beta_ecosystem"
       - "dependencies"
@@ -70,7 +70,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "bundler"
       - "dependencies"
@@ -82,7 +82,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "cargo"
       - "dependencies"
@@ -94,7 +94,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "docker"
       - "dependencies"
@@ -105,7 +105,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "golang"
       - "dependencies"
@@ -117,7 +117,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "gradle"
       - "dependencies"
@@ -129,7 +129,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "maven"
       - "dependencies"
@@ -141,7 +141,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "pub"
       - "dependencies"
@@ -153,7 +153,7 @@ updates:
       interval: "daily"
     allow:
       #  Allow direct updates for all packages
-      - dependency-type: "direct"
+      - dependency-type: "all"
     labels:
       - "terraform"
       - "dependencies"

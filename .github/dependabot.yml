@@ -30,7 +30,14 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-
+    allow:
+      #  Allow direct updates for all packages
+      - dependency-type: "all"
+    labels:
+      - "python"
+      - "dependencies"
+      - "dependabot"
+ 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions" #github-actions
     directory: "/"

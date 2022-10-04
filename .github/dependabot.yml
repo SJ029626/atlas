@@ -37,7 +37,7 @@ updates:
     labels:
       - "python"
       - "dependencies"
-      - "dependabot"   
+      - "dependabot"
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions" #github-actions
@@ -51,7 +51,7 @@ updates:
       - "github_actions"
       - "dependencies"
       - "dependabot"
- 
+
   - package-ecosystem: "beta-ecosystem"
     directory: "/"
     schedule:
@@ -63,7 +63,7 @@ updates:
       - "beta_ecosystem"
       - "dependencies"
       - "dependabot"
- 
+
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
@@ -75,7 +75,7 @@ updates:
       - "bundler"
       - "dependencies"
       - "dependabot"
-      
+
   - package-ecosystem: "cargo"
     directory: "/"
     schedule:
@@ -110,7 +110,7 @@ updates:
       - "golang"
       - "dependencies"
       - "dependabot"
-  
+
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
@@ -122,7 +122,7 @@ updates:
       - "gradle"
       - "dependencies"
       - "dependabot"
- 
+
   - package-ecosystem: "maven"
     directory: "/"
     schedule:

@@ -1,7 +1,6 @@
 # Use `allow` to specify which dependencies to maintain
 
 version: 2
-enable-beta-ecosystems: true
 updates:
   - package-ecosystem: "npm" #npm
     directory: "/"
@@ -45,18 +44,6 @@ updates:
       - "dependencies"
       - "dependabot"
 
-  - package-ecosystem: "beta-ecosystem"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    allow:
-      #  Allow direct updates for all packages
-      - dependency-type: "all"
-    labels:
-      - "beta_ecosystem"
-      - "dependencies"
-      - "dependabot"
-
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
@@ -92,6 +79,7 @@ updates:
       - "docker"
       - "dependencies"
       - "dependabot"
+  
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:

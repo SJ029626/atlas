@@ -7,7 +7,7 @@ charset-normalizer==2.0.12
 coverage==5.5
 dateparser==1.1.0
 edgegrid-python==1.1.1
-exchangelib==3.2.0
+exchangelib==4.9.0
 grpcio==1.44.0
 ioc-fanger==3.3.0
 ipwhois==1.2.0
